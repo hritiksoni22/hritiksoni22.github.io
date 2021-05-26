@@ -442,11 +442,19 @@ site-main-wrapper{
     }
     section.about .hritik {
         height: 360px;
+        width: auto;
     }
     section.services .card-wrapper{
         grid-template-columns: repeat(3, 1fr);
 
     }
+     skills .skills-content .left p {
+        text-align: center;
+        margin:auto;
+    }
+    .skills .skills-content .left .text{
+        text-align: center;
+    }    
 }     
 
 @media (max-width:576px){
@@ -467,7 +475,7 @@ site-main-wrapper{
     .hero .left{
         margin-top: -5rem;
         margin-right: -9rem;
-        padding-bottom: 15rem;
+        padding-bottom: 7rem;
     }
     .about-inner-wrap{
         flex-direction: column;
